@@ -259,7 +259,7 @@ img {
     position: relative;
     margin-bottom: 1rem;
     color: blue;
-    background-color: white;
+    background-color: rgb(199, 191, 191);
 }
 
 .last {
@@ -278,10 +278,10 @@ img {
     margin-bottom: 1rem;
 }
 
-@media screen and (min-width:320px){
+@media screen and (min-width:320px) {
     .last- {
         position: absolute;
-        left: 17rem;
+        left: 18rem;
     }
 
     .glog {
@@ -295,11 +295,13 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
-    .share{
+
+    .share {
         visibility: hidden;
     }
+
     .last {
         display: flex;
         align-items: center;
@@ -307,11 +309,11 @@ img {
         margin-bottom: 1rem;
         float: right;
         justify-content: center;
-    
+
     }
 }
 
-@media screen and (min-width:375px){
+@media screen and (min-width:375px) {
     .last- {
         position: absolute;
         left: 21rem;
@@ -328,8 +330,9 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
+
     /* .share{
         visibility: hidden;
     } */
@@ -340,7 +343,7 @@ img {
         margin-bottom: 1rem;
         float: right;
         justify-content: center;
-    
+
     }
 }
 
@@ -361,9 +364,10 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
-    .share{
+
+    .share {
         visibility: hidden;
     }
 }
@@ -388,7 +392,7 @@ img {
 }
 
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) {
     .last- {
         position: absolute;
         left: 76em;
@@ -405,8 +409,9 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
+
     /* .share{
         visibility: hidden;
     } */
@@ -417,10 +422,11 @@ img {
         margin-bottom: 1rem;
         float: right;
         justify-content: center;
-    
+
     }
 }
-@media screen and (min-width:1440px){
+
+@media screen and (min-width:1440px) {
     .last- {
         position: absolute;
         left: 87rem;
@@ -437,11 +443,13 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
-    .share{
+
+    .share {
         visibility: hidden;
     }
+
     .last {
         display: flex;
         align-items: center;
@@ -449,10 +457,11 @@ img {
         margin-bottom: 1rem;
         float: right;
         justify-content: center;
-    
+
     }
 }
-@media screen and (min-width:2560px){
+
+@media screen and (min-width:2560px) {
     .last- {
         position: absolute;
         left: 157rem;
@@ -469,11 +478,13 @@ img {
         right: 7rem;
         gap: 1rem;
         visibility: hidden;
-    
+
     }
-    .share{
+
+    .share {
         visibility: hidden;
     }
+
     .last {
         display: flex;
         align-items: center;
@@ -481,6 +492,6 @@ img {
         margin-bottom: 1rem;
         float: right;
         justify-content: center;
-    
+
     }
 }
