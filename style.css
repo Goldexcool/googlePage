@@ -268,7 +268,6 @@ img {
     color: blue;
     margin-bottom: 1rem;
     float: right;
-    background-color: aliceblue;
 
 }
 
@@ -347,6 +346,40 @@ img {
     }
 }
 
+@media screen and (min-width:414px) {
+    .last- {
+        position: absolute;
+        left: 22rem;
+    }
+
+    .glog {
+        position: absolute;
+        left: 7rem;
+    }
+
+    .rem {
+        display: flex;
+        position: absolute;
+        right: 7rem;
+        gap: 1rem;
+        visibility: hidden;
+
+    }
+
+    .share {
+        visibility: hidden;
+    }
+
+    .last {
+        display: flex;
+        align-items: center;
+        color: blue;
+        margin-bottom: 1rem;
+        float: right;
+        justify-content: center;
+
+    }
+}
 @media screen and (min-width:425px) {
     .last- {
         position: absolute;
